@@ -1,0 +1,60 @@
+/* .third {
+  background-color: black;
+  color: azure;
+  margin: 10px;
+  padding: 10px;
+}
+
+#first {
+  background-color: black;
+  color: beige;
+  padding: 10px;
+  margin: 10px;
+}
+
+.red-class-bg-blue {
+  color: black;
+  background-color: rgb(193, 224, 14);
+  padding: 10px;
+  margin: 10px;
+}
+
+.second {
+  color: black;
+  background-color: rgb(197, 121, 27);
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  color: black;
+  background-color: rgb(204, 204, 17);
+  padding: 10px;
+  margin: 10pxs;
+  
+} */
+/* div{ background-color: black;} */
+
+/* .third,.red-class-bg-blue ,#first ,div, p
+{ background-color: rgb(231, 28, 28);} */
+
+/* body{ background-image: url('/khanh-steven-tBWmzPuQo3w-unsplash\ 2.jpg');
+color: black;}
+s
+span{ color: rgb(199, 14, 14);
+background-color: #fff;} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    
+
+}
+
+div,
+section,
+p,
+span{
+    background-image: url(/khanh-steven-tBWmzPuQo3w-unsplash\ 2.jpg);
+}

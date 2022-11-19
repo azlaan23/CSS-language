@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: red;
+        height: 445px;
+      }
+      .box {
+        border: 2px solid black;
+        display: inline-block;
+        /* transform: translate(349px, 24px) rotate(45deg); 
+        transform-origin:0;  */
+        /* both are same  */
+        /* transform: scaleX(5 , 9); */
+        /* transform: scaleX(8);
+        transform: scaleY(4); */
+        /* transform: skew(45deg, 6deg);
+        transform: matrix(0); */
+        transform: rotateY(45deg);
+     
+      }
+      img {
+        /* height: 999px;
+        transition-property: width;
+        transform: duration 3s;
+        transition-timing-function: ease-in;
+        transition-delay: 3s; */
+        transition: width 3s ease-in-out;
+      }
+      img:hover {
+        width: 516px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img
+          id="my image"
+          src="/kris-moklebust-_tzhzxMcJas-unsplash.jpg"
+          alt=""
+        />
+        <button id="btn">Toggle</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    btn.addEventListner("click",()=>{
+     if(myimage.style.width ==="546px"){
+         myimage.style.width = "146px";
+    }
+    else if (myimage.style.width === "146px") {
+        myimage.style.width = "546px";}
+    })
+  </script>
+</html>
